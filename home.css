@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+
+
+  }
+  
+  header i {
+    font-size: 34px;
+    margin-right: -580px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  
+  .bg-image {
+    background-image: url("https://www.fbgcdn.com/pictures/16366195-e082-4094-9eab-4faab778a4af.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    height: 90vh; /* La mitad de la pantalla */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); /* Ajusta la opacidad aquí */
+
+  }
+
+  .card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color:#1e3446;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex-basis: 30%;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  text-transform: uppercase;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: "Open Sans", sans-serif
+    ;
+    font-weight: 600;
+  }
+  
+  .button.blue {
+    background-color: #3e617d
+    ;
+  }
+  
+  .button.orange {
+    background-color: #df733c
+    
+    ;
+  }
+  
+.content-1 {
+  color: #fff; /* Letras blancas */
+  text-align: center;
+  padding: 20px;
+}
+
+.h2-wrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro */
+    color: #fff; /* Letras blancas */
+}
+
+.h2-wrapper i {
+  color: #fff;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+.h2-wrapper h2 {
+  margin: 0;
+  font-size: 18px;
+}
+.content-midle{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 100px;
+}
+.text-midle{
+  font-size: 70px;
+  font-family: "PT Serif", serif;
+  color: white;
+  font-style: italic;
+}
+.description-midle{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.wood-background {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .1;
+}
+.contenedor {
+  background-image: url('https://www.fbgcdn.com/websites/img/wood2.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+  background-color:rgb(30, 52, 70, 1.2); /* Fondo azul con opacidad */
+  border: 2px solid white; /* Borde blanco de 2 píxeles */
+  padding: 20px; /* Espacio uniforme alrededor del contenedor */
+  margin: 159px; /* Espacio adicional fuera del contenedor */
+  background-blend-mode: overlay; /* Mezcla el fondo de color con el de imagen */
+  box-sizing: border-box; /* Incluye el padding y el border en el tamaño total */
+  height: 210px;
+  margin-top: 100px;
+}
+.contenedor h1 {
+  color: white; /* Color del texto */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: 23.4px;
+  margin-top: 15px;
+}
+.contenedor:before {
+  content: "";
+  position: absolute;
+  top: 725px;
+  bottom: -220px;
+  left: 180px;
+  right: 180px;
+  border: 1px solid white; /* Borde blanco de 1 píxel dentro del contenedor */
+}
+.icono {
+  position: absolute;
+  top: 120%;
+  width: 30px;
+  height: 30px;
+  color: rgb(255, 255, 255); /* Color del icono */
+  transform: translateY(-50%);
+  font-size: 45px;
+}
+
+.izquierda {
+  left: 210px;
+}
+
+.derecha {
+  right: 230px;
+}
+.lista-buttom{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.button-2 {
+  display: flex;
+  width: 140px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.button-2.blue {
+  background-color: #3e617d
+  ;
+}
+
+.button-2.orange {
+  background-color: #df733c
+  
+  ;
+}
+.contenedor-sobre{
+  margin-top: -80px;
+}
+.contenedor-sobre-h1{
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+.contenedor-sobre-hr{
+  margin-top: 35px;
+  width: 8%;
+  height: 3px;
+  color: #df733c;
+  background-color: #df733c;
+}
+.contenedor-sobre-div{
+  width: 70%;
+  margin: auto;
+}
+.contenedor-sobre-p{
+
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #666666;
+}
+
+.contenedor-horario{
+  background-image: url('https://www.fbgcdn.com/websites/img/wood2.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+  background-color:rgb(30, 52, 70, 1.2); /* Fondo azul con opacidad */
+  border: 2px solid white; /* Borde blanco de 2 píxeles */
+  padding: 20px; /* Espacio uniforme alrededor del contenedor */
+  margin: auto; /* Espacio adicional fuera del contenedor */
+  background-blend-mode: overlay; /* Mezcla el fondo de color con el de imagen */
+  box-sizing: border-box; /* Incluye el padding y el border en el tamaño total */
+  height: 180px;
+  margin-top: 100px;
+  width: 500px;
+}
+.contenedor-horario:before {
+  content: "";
+  position: absolute;
+  top: 1410px;
+  bottom: -890px;
+  left: 440px;
+  right: 440px;
+  border: 1px solid rgb(255, 255, 255,0.5); /* Borde blanco de 1 píxel dentro del contenedor */
+}
+.contenedor-horario-2v:before {
+  content: "";
+  position: absolute;
+  top: 1415px;
+  bottom: -885px;
+  left: 445px;
+  right: 445px;
+  border: 1px solid rgb(255, 255, 255, 0.5); /* Borde blanco de 1 píxel dentro del contenedor */
+}
+.contenedor-horario-h1{
+  text-align: center;
+  color: white;
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.contenedor-horario-h2{
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.contenedor-horario-div{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.iconocandado{
+  position: absolute;
+  right:  490px;
+  top: 1280px;
+  font-size: 50px;
+}
+
+.contenedor-pedidos{
+  background-image: url('https://www.fbgcdn.com/websites/img/a_default2.jpg '); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+  background-color:rgb(30, 52, 70); /* Fondo azul con opacidad */
+  border: 2px solid white; /* Borde blanco de 2 píxeles */
+  padding: 20px; /* Espacio uniforme alrededor del contenedor */
+  margin: auto; /* Espacio adicional fuera del contenedor */
+  background-blend-mode: overlay; /* Mezcla el fondo de color con el de imagen */
+  box-sizing: border-box; /* Incluye el padding y el border en el tamaño total */
+  height: 350px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.contenedor-pedidos-h1{
+  color: white;
+  font-family: "PT Serif", serif;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+.contenedor-pedidos-div{
+  width: 70%;
+  margin: auto;
+}
+.contenedor-pedidos-p{
+  font-family: "Open Sans", sans-serif
+  ;
+  font-size: 18px;
+  color: white;
+}
+
+.iconocandado-2{
+  position: relative;
+  color: white;
+  left: 590px;
+  font-size: 50px;
+}
+
+.language-select {
+  margin-top: 13px;
+  width: 50%;
+  color: white;
+  background-color: #1e3446;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+  
+}
+.footer-p{
+  font-family: "Open Sans", sans-serif
+  ;
+  font-size: 12px;
+  margin-top: 22px;
+}
+.option-color{
+  color: white;
+}
+.footer-p-2{
+  margin-top: 50px;
+  font-family: "Open Sans", sans-serif
+  ;
+  font-size: 12px;
+}
+
+.column-2{
+  display: flex;
+  flex-direction: column;
+}
+.footer-a{
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif
+  ;
+  margin-top: 13px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.footer-ul{
+  list-style: none;
+}
+.button-3 {
+  width: 81%;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif
+  ;
+  font-weight: 600;
+}
+  
+.button-3.orange-2 {
+  background-color: #df733c
+  
+  ;
+}
+.mapp{
+  width: 100%;
+}
+.map{
+  margin-bottom: 70px;
+}
