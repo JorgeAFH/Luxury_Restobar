@@ -181,7 +181,7 @@ body {
 }
 .contenedor:before {
   content: "";
-  position: absolute;
+ 
   top: 725px;
   bottom: -220px;
   left: 180px;
@@ -209,8 +209,10 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
+  margin-top: 0;
 }
 .button-2 {
+  z-index: 1;
   display: flex;
   width: 140px;
   height: 70px;
